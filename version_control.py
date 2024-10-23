@@ -14,8 +14,7 @@ def main():
             x = encode()
         # option to decode password
         elif option == 2:
-            pass
-            # decode(x)
+            print("The encoded password is " + x + ", and the original password is " + decode(x) + ".")
         #option to quit
         elif option == 3:
             break
@@ -49,7 +48,10 @@ def encode():
             return final_pass
 
 def decode(final_pass):
-    pass
+    r = ""
+    for i in final_pass:
+        r = r + str(int(i) - 3)
+    return r
 
 
 if __name__ == '__main__':
