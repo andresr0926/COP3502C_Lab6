@@ -1,6 +1,6 @@
 # Andres E. Rodriguez
 
-def main():
+def main():git 
     # while loop to show menu options
     while True:
         print('Menu\n'
@@ -14,7 +14,8 @@ def main():
             x = encode()
         # option to decode password
         elif option == 2:
-            print("The encoded password is " + x + ", and the original password is " + decode(x) + ".")
+            y = decode(x)
+            print("The encoded password is " + x + ", and the original password is " + y + ".")
         #option to quit
         elif option == 3:
             break
