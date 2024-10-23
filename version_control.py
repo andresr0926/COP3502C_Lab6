@@ -1,6 +1,6 @@
 # Andres E. Rodriguez
 
-def main():git 
+def main():
     # while loop to show menu options
     while True:
         print('Menu\n'
